@@ -85,16 +85,16 @@ const projectGalleries = {
     {
       type: 'image',
       src: 'img/projects/5.jpg',
-      title: { id: 'Motion & Visual', en: 'Motion & Visual' },
+      title: { id: 'Poster congratulations, en: 'Motion & Visual' },
       desc: {
-        id: 'Placeholder sementara. Nanti tinggal ganti dengan hasil karya editing milikmu.',
+        id: 'Desain poster perayaan dengan tipografi dan elemen visual yang menarik untuk menonjolkan momen pencapaian.',
         en: 'Temporary placeholder. Replace it with your own editing work later.'
       }
     },
     {
       type: 'image',
       src: 'img/projects/7.jpg',
-      title: { id: 'Project Ketiga', en: 'Third Project' },
+      title: { id: 'Randomm edit', en: 'Third Project' },
       desc: {
         id: 'Project editing tambahan dengan konsep visual kreatif dan modern.',
         en: 'Additional editing project with a creative and modern visual concept.'
