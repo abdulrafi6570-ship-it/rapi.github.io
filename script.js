@@ -63,7 +63,7 @@ const projectGalleries = {
     items: [
       { type: 'image', src: 'img/projects/1.jpg',
         title: { id: 'Website & Dashboard', en: 'Website & Dashboard' },
-        desc: { id: 'Contoh tampilan sementara untuk karya pengembangan web. Ganti foto ini dengan screenshot project aslimu.', en: 'Temporary showcase image for a web development project. Replace it with your real project screenshot.' } },
+        desc: { id: 'Website modern dan responsif yang dirancang dengan tampilan clean, interaktif, dan nyaman digunakan di berbagai perangkat.', en: 'Temporary showcase image for a web development project. Replace it with your real project screenshot.' } },
       { type: 'image', src: 'img/projects/4.jpg',
         title: { id: 'UI Sistem', en: 'System UI' },
         desc: { id: 'Placeholder sementara untuk project kedua di kategori pengembangan web.', en: 'Temporary placeholder for another web development project.' } }
@@ -165,7 +165,7 @@ const translations = {
     'work.video.label':'04 / VIDEO SHOWCASE','work.video.title':'TAMPILKAN PROSESNYA.','work.video.desc':'Masukkan video terbaik kamu ke <code>img/videos/1.mp4</code>.',
     'ach.label':'04 / PENCAPAIAN','ach.kicker':'DAFTAR JUARA','ach.title':'DAFTAR JUARA <span>TURNAMEN MLBB.</span>',
     'ach.desc':'Tiga pencapaian Mobile Legends yang bisa kamu lengkapi dengan nama turnamen, tahun, dan detail lainnya.',
-    'ach.game':'MOBILE LEGENDS','ach.second':'JUARA 2','ach.first':'JUARA 1','ach.placeholder':'Nama turnamen / tahun',
+    'ach.game':'MOBILE LEGENDS','ach.second':'JUARA 2','ach.first':'JUARA 1','ach.placeholder':'Turnamen mlbb / 2026',
     'now.label':'05 / SEKARANG','now.kicker':'CURRENTLY EXPLORING','now.live':'SEDANG DIPELAJARI','now.title':'Terus belajar, bereksperimen, dan memperluas cara saya membuat sesuatu.',
     'journey.label':'06 / PERJALANAN','journey.kicker':'MY JOURNEY','journey.title':'BELAJAR.<br><span>MEMBUAT.</span><br>BERKEMBANG.','journey.desc':'Perjalanan singkat tentang bagaimana minat saya berkembang dari visual, coding, sampai project dan kompetisi.','journey.2024.title':'Mulai mengeksplor editing kreatif','journey.2024.desc':'Belajar video editing, visual, motion, dan membuat konten dengan karakter sendiri.','journey.2025.title':'Masuk lebih dalam ke web development','journey.2025.desc':'Mulai membangun website, dashboard, sistem, dan bereksperimen dengan UI.','journey.2026.title':'Project, teknologi, dan kompetisi','journey.2026.desc':'Menggabungkan coding, kreativitas visual, serta pengalaman kompetitif menjadi portfolio yang terus berkembang.',
     'contact.label':'07 / KONTAK','contact.title':'PUNYA IDE?<br><em>YUK WUJUDKAN.</em>',
