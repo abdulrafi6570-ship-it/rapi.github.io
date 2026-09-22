@@ -109,27 +109,27 @@ const projectGalleries = {
     {
       type: 'image',
       src: 'img/projects/3.jpg',
-      title: { id: 'Mobile Legends', en: 'Mobile Legends' },
+      title: { id: 'Juara 2', en: 'Juara 2' },
       desc: {
-        id: 'Foto sementara untuk dokumentasi gaming kompetitif dan pengalaman Mobile Legends.',
+        id: 'Meraih Juara 2 dalam kompetisi Mobile Legends dengan mengandalkan strategi, teamwork, dan komunikasi tim.',
         en: 'Temporary image for competitive gaming and Mobile Legends experience.'
       }
     },
     {
       type: 'image',
       src: 'img/projects/6.jpg',
-      title: { id: 'Team Play', en: 'Team Play' },
+      title: { id: 'Juara 1', en: 'Juara 1' },
       desc: {
-        id: 'Placeholder sementara untuk dokumentasi pertandingan atau tim.',
+        id: 'Meraih Juara 1 dalam kompetisi Mobile Legends melalui strategi, teamwork, dan komunikasi tim.',
         en: 'Temporary placeholder for match or team documentation.'
       }
     },
     {
       type: 'image',
       src: 'img/projects/17.jpg',
-      title: { id: 'Project Gaming', en: 'Gaming Project' },
+      title: { id: 'Juara 1 Voltera', en: 'Juara 1 Voltera' },
       desc: {
-        id: 'Dokumentasi tambahan project gaming kompetitif.',
+        id: 'Meraih Juara 1 Voltera melalui strategi, teamwork, dan komunikasi tim.',
         en: 'Additional competitive gaming project documentation.'
       }
     }
