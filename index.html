@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title id="pageTitle">RAPP — Creative Developer</title>
+<meta name="description" content="Portfolio Rapp — Programmer, Editor & Mobile Legends Player.">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<meta name="color-scheme" content="dark">
+</head>
+<body>
+
+<div class="noise"></div>
+<div class="cursor-glow"></div>
+
+<nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="#home">RAPP<span class="brand-dot">.</span></a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><i class="bi bi-list"></i></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-lang"><button type="button" class="lang-btn active" data-lang="id">ID</button><span>/</span><button type="button" class="lang-btn" data-lang="en">EN</button></li>
+        <li><a class="nav-link active" href="#home" data-i18n="nav.home">Beranda</a></li>
+        <li><a class="nav-link" href="#about" data-i18n="nav.about">Tentang</a></li>
+        <li><a class="nav-link" href="#skills" data-i18n="nav.skills">Tools & Keahlian</a></li>
+        <li><a class="nav-link" href="#work" data-i18n="nav.work">Karya / Project</a></li>
+        <li><a class="nav-link" href="#achievements" data-i18n="nav.achievements">Pencapaian</a></li>
+        <li><a class="nav-link" href="#journey" data-i18n="nav.journey">Journey</a></li>
+        <li><a class="nav-link" href="#contact" data-i18n="nav.contact">Kontak</a></li>
+        <li><a class="nav-link nav-cta" href="#contact"><span data-i18n="nav.talk">Ayo Ngobrol</span> <i class="bi bi-arrow-up-right"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-grid"></div>
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <h1><span data-i18n="hero.title">ABDUL<br><em>RAFI</em><br>PROJECT</span></h1>
+        <p class="hero-sub hero-typewriter" aria-live="polite"><span class="hero-type-text"></span><span class="type-cursor" aria-hidden="true"></span></p>
+        <div class="hero-actions">
+          <a href="#work" class="btn-main"><span data-i18n="hero.explore">Explore My Work</span> <i class="bi bi-arrow-down-right"></i></a>
+          <a href="#contact" class="btn-ghost"><span data-i18n="hero.contact">Contact Me</span></a>
+        </div>
+        <div class="hero-social">
+          <span><span data-i18n="hero.follow">FOLLOW</span></span>
+          <a href="https://www.instagram.com/rapzzhere/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://github.com/abdulrafi6570-ship-it" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+          <a href="https://wa.me/6283177780963" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="portrait-wrap">
+          <div class="portrait-backdrop"></div>
+          <div class="portrait-frame">
+            <img src="img/rapp.jpg" alt="Foto Rapp">
+            <div class="portrait-tag"><span class="live-dot"></span> <span data-i18n="hero.online">ONLINE / CREATING</span></div>
+            <div class="portrait-number">01<br><small><span data-i18n="hero.portfolio">PORTFOLIO</span></small></div>
+          </div>
+          <div class="floating-card fc-one"><small><span data-i18n="hero.mainRole">MAIN ROLE</span></small><strong><span data-i18n="hero.role">CREATIVE DEVELOPER</span></strong></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint"><span></span> <span data-i18n="hero.scroll">SCROLL TO EXPLORE</span></div>
+  </div>
+</section>
+
+<section class="ticker brand-ticker" aria-label="Tools and brands">
+  <div class="ticker-track brand-track">
+    <div class="brand-group">
+      <div class="brand-item"><img src="img/alight-motion.png" alt="Alight Motion"><span>Alight Motion</span></div>
+      <div class="brand-item"><img src="img/capcut.png" alt="CapCut"><span>CapCut</span></div>
+      <div class="brand-item"><img src="https://cdn.simpleicons.org/pinterest" alt="Pinterest"><span>Pinterest</span></div>
+      <div class="brand-item"><img src="https://cdn.simpleicons.org/php" alt="PHP"><span>PHP</span></div>
+      <div class="brand-item"><img src="img/mlbb.jpg" alt="Mobile Legends"><span>MLBB</span></div>
+      <div class="brand-item"><img src="https://cdn.simpleicons.org/supabase" alt="Supabase"><span>Supabase</span></div>
+      <div class="brand-item"><img src="https://cdn.simpleicons.org/cloudflare" alt="Cloudflare"><span>Cloudflare</span></div>
+      <div class="brand-item"><img src="https://cdn.simpleicons.org/python" alt="Python"><span>Python</span></div>
+      <div class="brand-item"><img src="img/css.png" alt="CSS"><span>CSS</span></div>
+    </div>
+    <div class="brand-group" aria-hidden="true">
+      <div class="brand-item"><img src="img/alight-motion.png" alt=""><span>Alight Motion</span></div>
+      <div class="brand-item"><img src="img/capcut.png" alt=""><span>CapCut</span></div>
+      <div class="brand-item"><img src="https://cdn.simpleicons.org/pinterest" alt=""><span>Pinterest</span></div>
+      <div class="brand-item"><img src="https://cdn.simpleicons.org/php" alt=""><span>PHP</span></div>
+      <div class="brand-item"><img src="img/mlbb.jpg" alt="Mobile Legends"><span>MLBB</span></div>
+      <div class="brand-item"><img src="https://cdn.simpleicons.org/supabase" alt=""><span>Supabase</span></div>
+      <div class="brand-item"><img src="https://cdn.simpleicons.org/cloudflare" alt=""><span>Cloudflare</span></div>
+      <div class="brand-item"><img src="https://cdn.simpleicons.org/python" alt=""><span>Python</span></div>
+      <div class="brand-item"><img src="img/css.png" alt=""><span>CSS</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section about about-editorial">
+  <div class="container">
+    <div class="section-top"><span><span data-i18n="about.label">01 / TENTANG SAYA</span></span><i><span data-i18n="about.kicker">SIAPA SAYA</span></i></div>
+
+    <div class="about-profile">
+      <div class="about-profile-media">
+        <div class="about-photo"><img src="img/rapp.jpg" alt="RAPP"></div>
+        <div class="about-photo-meta"><span>RAPP / 2026</span><span class="about-status"><i></i><span data-i18n="about.status">OPEN TO CREATE</span></span></div>
+      </div>
+      <div class="about-profile-content">
+        <small data-i18n="about.who">TENTANG SAYA</small>
+        <h2 data-i18n="about.identityTitle">Programmer, editor, dan competitive player yang suka mengubah ide menjadi sesuatu yang bisa dilihat dan digunakan.</h2>
+        <p class="large-muted" data-i18n="about.desc">Saya suka membuat sesuatu dari nol, mengutak-atik detail, lalu melihat hasilnya benar-benar bekerja.</p>
+        <div class="about-signature"><span>01</span><span>ABDUL RAFI / RAPP</span></div>
+      </div>
+    </div>
+
+    <div class="about-focus">
+      <div class="about-focus-head"><span data-i18n="about.focusLabel">YANG SAYA KERJAKAN</span><span>03 AREA</span></div>
+      <div class="about-focus-row">
+        <span class="focus-number">01</span><div><h3 data-i18n="about.build.title">BUILD</h3><p data-i18n="about.build.desc">Website, sistem, dan eksperimen digital dengan fokus pada UI yang rapi.</p></div><i class="bi bi-arrow-up-right"></i>
+      </div>
+      <div class="about-focus-row">
+        <span class="focus-number">02</span><div><h3 data-i18n="about.create.title">CREATE</h3><p data-i18n="about.create.desc">Editing video dan visual untuk menghasilkan konten yang punya karakter.</p></div><i class="bi bi-arrow-up-right"></i>
+      </div>
+      <div class="about-focus-row">
+        <span class="focus-number">03</span><div><h3 data-i18n="about.compete.title">COMPETE</h3><p data-i18n="about.compete.desc">Pengalaman kompetitif Mobile Legends dan kerja sama tim.</p></div><i class="bi bi-arrow-up-right"></i>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section skills-section">
+ <div class="container">
+  <div class="section-top"><span><span data-i18n="skills.label">02 / SKILLS</span></span><i><span data-i18n="skills.kicker">MY TOOLKIT</span></i></div>
+  <div class="row g-5">
+   <div class="col-lg-5"><h2 class="big-title"><span data-i18n="skills.title">TOOLS<br><span>&</span><br>SKILLS.</span></h2><p class="large-muted"><span data-i18n="skills.desc">Teknologi dan kemampuan yang biasa saya gunakan untuk mengubah ide menjadi hasil nyata.</span></p></div>
+   <div class="col-lg-7">
+    <div class="skill-list">
+      <div class="skill-line skill-project-link" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#skillGalleryModal" data-skill="s1" aria-label="Open Web Development skills gallery">
+        <strong>01</strong><div><h3><span data-i18n="skills.web.title">Web Development</span></h3><p data-i18n="skills.web.tools">HTML · CSS · Bootstrap 5 · JavaScript · PHP · MySQL</p></div><i class="bi bi-arrow-up-right"></i>
+      </div>
+      <div class="skill-line skill-project-link" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#skillGalleryModal" data-skill="s2" aria-label="Open Creative Editing skills gallery">
+        <strong>02</strong><div><h3><span data-i18n="skills.edit.title">Creative Editing</span></h3><p data-i18n="skills.edit.tools">Editing Video · Desain Visual · Motion · Thumbnail</p></div><i class="bi bi-arrow-up-right"></i>
+      </div>
+      <div class="skill-line skill-project-link" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#skillGalleryModal" data-skill="s3" aria-label="Open Competitive Gaming skills gallery">
+        <strong>03</strong><div><h3><span data-i18n="skills.game.title">Competitive Gaming</span></h3><p data-i18n="skills.game.tools">Mobile Legends · Strategi · Kerja Sama Tim · Komunikasi</p></div><i class="bi bi-arrow-up-right"></i>
+      </div>
+    </div>
+   </div>
+  </div>
+  <div class="tool-logo-grid reveal-item" aria-label="Tools yang sering digunakan">
+    <div class="tool-logo"><img src="https://cdn.simpleicons.org/html5" alt="HTML"><span>HTML</span></div>
+    <div class="tool-logo"><img src="img/css.png" alt="CSS"><span>CSS</span></div>
+    <div class="tool-logo"><img src="https://cdn.simpleicons.org/javascript" alt="JavaScript"><span>JavaScript</span></div>
+    <div class="tool-logo"><img src="https://cdn.simpleicons.org/php" alt="PHP"><span>PHP</span></div>
+    <div class="tool-logo"><img src="https://cdn.simpleicons.org/mysql" alt="MySQL"><span>MySQL</span></div>
+    <div class="tool-logo"><img src="img/capcut.png" alt="CapCut"><span>CapCut</span></div>
+    <div class="tool-logo"><img src="img/alight-motion.png" alt="Alight Motion"><span>Alight Motion</span></div>
+    <div class="tool-logo"><img src="img/mlbb.jpg" alt="Mobile Legends"><span>MLBB</span></div>
+  </div>
+ </div>
+</section>
+
+<section id="work" class="section work">
+ <div class="container">
+  <div class="section-top"><span><span data-i18n="work.label">03 / SELECTED WORK</span></span><i><span data-i18n="work.kicker">PROJECTS</span></i></div>
+  <div class="d-flex justify-content-between align-items-end flex-wrap gap-3 mb-5">
+    <h2 class="big-title mb-0"><span data-i18n="work.title">SELECTED<br><span>WORK.</span></span></h2>
+    <p class="large-muted mb-0"><span data-i18n="work.desc">Isi folder <code>img/projects/</code> dengan karya kamu.</span></p>
+  </div>
+  <div class="dest-grid">
+    <a href="#" class="dest-card" style="--glow:139,108,255" aria-label="Explore details for Project One" data-bs-toggle="modal" data-bs-target="#exploreModal" data-project="p1">
+      <div class="dest-bg" style="background-image:url(img/projects/1.jpg)"></div>
+      <div class="dest-overlay"></div>
+      <div class="dest-num">01</div>
+      <div class="dest-content">
+        <small><span data-i18n="work.p1.cat">WEB / DEVELOPMENT</span></small>
+        <div class="project-meta"><span>2026</span><span>HTML · CSS · JS · PHP</span></div>
+        <h3><span data-i18n="work.p1.title">WEB DEVELOPMENT PROJECT</span></h3>
+        <p><span data-i18n="work.p1.desc">Website, dashboard, dan sistem yang dibuat untuk kebutuhan digital.</span></p>
+        <div class="dest-btn"><span><span data-i18n="work.explore">Explore Now</span></span><i class="bi bi-arrow-right"></i></div>
+      </div>
+    </a>
+    <a href="#" class="dest-card" style="--glow:67,231,255" aria-label="Explore details for Project Two" data-bs-toggle="modal" data-bs-target="#exploreModal" data-project="p2">
+      <div class="dest-bg" style="background-image:url(img/projects/2.jpg)"></div>
+      <div class="dest-overlay"></div>
+      <div class="dest-num">02</div>
+      <div class="dest-content">
+        <small><span data-i18n="work.p2.cat">CREATIVE / EDITING</span></small>
+        <div class="project-meta"><span>2026</span><span>CAPCUT · ALIGHT MOTION</span></div>
+        <h3><span data-i18n="work.p2.title">CREATIVE EDITING PROJECT</span></h3>
+        <p><span data-i18n="work.p2.desc">Video editing, motion, desain visual, dan thumbnail.</span></p>
+        <div class="dest-btn"><span><span data-i18n="work.explore">Explore Now</span></span><i class="bi bi-arrow-right"></i></div>
+      </div>
+    </a>
+    <a href="#" class="dest-card" style="--glow:216,255,87" aria-label="Explore details for Project Three" data-bs-toggle="modal" data-bs-target="#exploreModal" data-project="p3">
+      <div class="dest-bg" style="background-image:url(img/projects/3.jpg)"></div>
+      <div class="dest-overlay"></div>
+      <div class="dest-num">03</div>
+      <div class="dest-content">
+        <small><span data-i18n="work.p3.cat">OTHER / PROJECT</span></small>
+        <div class="project-meta"><span>2026</span><span>MOBILE LEGENDS · TEAMPLAY</span></div>
+        <h3><span data-i18n="work.p3.title">COMPETITIVE GAMING</span></h3>
+        <p><span data-i18n="work.p3.desc">Dokumentasi dan pengalaman kompetitif Mobile Legends.</span></p>
+        <div class="dest-btn"><span><span data-i18n="work.explore">Explore Now</span></span><i class="bi bi-arrow-right"></i></div>
+      </div>
+    </a>
+  </div>
+  <div class="video-feature mt-5">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-8"><video controls loop muted poster="img/projects/8.jpg"><source src="img/videos/1.mp4" type="video/mp4"></video></div>
+      <div class="col-lg-4"><small><span data-i18n="work.video.label">04 / VIDEO SHOWCASE</span></small><h3><span data-i18n="work.video.title">SHOW THE PROCESS.</span></h3><p><span data-i18n="work.video.desc">Masukkan video terbaik kamu ke <code>img/videos/1.mp4</code>.</span></p></div>
+    </div>
+  </div>
+ </div>
+</section>
+
+<section id="achievements" class="section achievements">
+ <div class="container">
+  <div class="section-top"><span><span data-i18n="ach.label">04 / PENCAPAIAN</span></span><i><span data-i18n="ach.kicker">DAFTAR JUARA</span></i></div>
+  <div class="row align-items-end g-4 mb-5">
+   <div class="col-lg-7"><h2 class="big-title achievement-title"><span data-i18n="ach.title">DAFTAR JUARA <span>TURNAMEN MLBB.</span></span></h2></div>
+   <div class="col-lg-5"><p class="large-muted"><span data-i18n="ach.desc">Tiga pencapaian Mobile Legends yang bisa kamu lengkapi dengan nama turnamen, tahun, dan detail lainnya.</span></p></div>
+  </div>
+  <div class="podium">
+    <div class="podium-card second"><span>02</span><i class="bi bi-trophy"></i><small><span data-i18n="ach.game">MOBILE LEGENDS</span></small><h3><span data-i18n="ach.second">JUARA 2</span></h3><p><span data-i18n="ach.placeholder">Nama turnamen / tahun</span></p><div class="achievement-detail"><span><i class="bi bi-calendar3"></i> 2026</span><span><i class="bi bi-people"></i> TEAM</span></div></div>
+    <div class="podium-card first"><span>01</span><i class="bi bi-trophy-fill"></i><small><span data-i18n="ach.game">MOBILE LEGENDS</span></small><h3><span data-i18n="ach.first">JUARA 1</span></h3><p><span data-i18n="ach.placeholder">Nama turnamen / tahun</span></p><div class="achievement-detail"><span><i class="bi bi-calendar3"></i> 2026</span><span><i class="bi bi-people"></i> TEAM</span></div></div>
+    <div class="podium-card third"><span>03</span><i class="bi bi-trophy"></i><small><span data-i18n="ach.game">MOBILE LEGENDS</span></small><h3><span>JUARA 3</span></h3><p><span data-i18n="ach.placeholder">Nama turnamen / tahun</span></p><div class="achievement-detail"><span><i class="bi bi-calendar3"></i> 2026</span><span><i class="bi bi-people"></i> TEAM</span></div></div>
+  </div>
+ </div>
+</section>
+
+<section id="now" class="section now-section">
+ <div class="container">
+  <div class="section-top"><span><span data-i18n="now.label">05 / SEKARANG</span></span><i><span data-i18n="now.kicker">CURRENTLY EXPLORING</span></i></div>
+  <div class="now-card reveal-item">
+    <div class="now-live"><span></span><small data-i18n="now.live">SEDANG DIPELAJARI</small></div>
+    <h2 data-i18n="now.title">Terus belajar, bereksperimen, dan memperluas cara saya membuat sesuatu.</h2>
+    <div class="now-tags"><span>React</span><span>UI / UX</span><span>Motion Design</span><span>Backend</span><span>Supabase</span><span>Cloudflare</span></div>
+  </div>
+ </div>
+</section>
+
+<section id="journey" class="section journey-section">
+ <div class="container">
+  <div class="section-top"><span><span data-i18n="journey.label">06 / PERJALANAN</span></span><i><span data-i18n="journey.kicker">MY JOURNEY</span></i></div>
+  <div class="row g-5 align-items-start">
+   <div class="col-lg-5"><h2 class="big-title journey-title"><span data-i18n="journey.title">BELAJAR.<br><span>MEMBUAT.</span><br>BERKEMBANG.</span></h2><p class="large-muted" data-i18n="journey.desc">Perjalanan singkat tentang bagaimana minat saya berkembang dari visual, coding, sampai project dan kompetisi.</p></div>
+   <div class="col-lg-7">
+    <div class="timeline">
+      <article class="timeline-item reveal-item"><span class="timeline-year">2024</span><div><small>START</small><h3 data-i18n="journey.2024.title">Mulai mengeksplor editing kreatif</h3><p data-i18n="journey.2024.desc">Belajar video editing, visual, motion, dan membuat konten dengan karakter sendiri.</p></div></article>
+      <article class="timeline-item reveal-item"><span class="timeline-year">2025</span><div><small>BUILD</small><h3 data-i18n="journey.2025.title">Masuk lebih dalam ke web development</h3><p data-i18n="journey.2025.desc">Mulai membangun website, dashboard, sistem, dan bereksperimen dengan UI.</p></div></article>
+      <article class="timeline-item reveal-item"><span class="timeline-year">2026</span><div><small>GROW</small><h3 data-i18n="journey.2026.title">Project, teknologi, dan kompetisi</h3><p data-i18n="journey.2026.desc">Menggabungkan coding, kreativitas visual, serta pengalaman kompetitif menjadi portfolio yang terus berkembang.</p></div></article>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="contact" class="section contact">
+ <div class="container">
+  <div class="contact-inner">
+    <span><span data-i18n="contact.label">07 / CONTACT</span></span>
+    <h2><span data-i18n="contact.title">HAVE AN IDEA?<br><em>LET'S BUILD IT.</em></span></h2>
+    <p><span data-i18n="contact.desc">Project, collaboration, editing, atau sekadar ngobrol soal teknologi.</span></p>
+    <a href="mailto:emailkamu@example.com" class="contact-button"><span data-i18n="contact.button">GET IN TOUCH</span> <i class="bi bi-arrow-up-right"></i></a>
+    <div class="contact-links contact-link-grid">
+      <a href="https://www.instagram.com/rapzzhere/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i><span><small>SOCIAL</small>Instagram</span><i class="bi bi-arrow-up-right"></i></a>
+      <a href="https://github.com/abdulrafi6570-ship-it" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i><span><small>CODE</small>GitHub</span><i class="bi bi-arrow-up-right"></i></a>
+      <a href="https://wa.me/6283177780963" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i><span><small>CHAT</small>WhatsApp</span><i class="bi bi-arrow-up-right"></i></a>
+    </div>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer><div class="container footer-upgraded"><div><strong>RAPP<span class="brand-dot">.</span></strong><small data-i18n="footer.tagline">Built with curiosity & caffeine.</small></div><span>© 2026 RAPP</span><span><span data-i18n="footer.role">PROGRAMMER · EDITOR · PLAYER</span></span></div></footer>
+
+<!-- Skill gallery: tampilannya sengaja berbeda dari galeri 3 PROJECT di bawah. -->
+<div class="modal fade skill-gallery-modal" id="skillGalleryModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <button type="button" class="skill-gallery-close" data-bs-dismiss="modal" aria-label="Tutup"><i class="bi bi-x-lg"></i></button>
+      <div class="skill-gallery-shell">
+        <div class="skill-gallery-heading">
+          <div>
+            <small class="skill-gallery-eyebrow" id="skillGalleryCategory"></small>
+            <h2 id="skillGalleryTitle"></h2>
+            <p id="skillGalleryDesc"></p>
+          </div>
+          <div class="skill-gallery-count" id="skillGalleryCount"></div>
+        </div>
+        <div class="skill-gallery-grid" id="skillGalleryGrid"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Explore gallery modal: menampilkan foto/video per project. Isi datanya di script.js (projectGalleries) -->
+<div class="modal fade fan-modal" id="exploreModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <button type="button" class="fan-close" data-bs-dismiss="modal" aria-label="Tutup"><i class="bi bi-x-lg"></i></button>
+      <div class="modal-body">
+        <div class="fan-layout">
+
+          <!-- KIRI: media + tombol geser -->
+          <div class="fan-left">
+            <div class="fan-media-wrap fan-anim" id="fanMediaWrap">
+              <img id="fanMediaImg" src="" alt="">
+              <video id="fanMediaVideo" class="d-none" controls playsinline></video>
+            </div>
+            <div class="fan-controls">
+              <div class="fan-nav">
+                <button type="button" class="fan-nav-btn" id="fanPrev" aria-label="Sebelumnya"><i class="bi bi-arrow-left"></i></button>
+                <span class="fan-counter" id="fanCounter"></span>
+                <button type="button" class="fan-nav-btn" id="fanNext" aria-label="Berikutnya"><i class="bi bi-arrow-right"></i></button>
+              </div>
+              <div class="fan-thumbs" id="fanThumbs"></div>
+            </div>
+          </div>
+
+          <!-- KANAN: judul project + penjelasan -->
+          <div class="fan-right">
+            <div class="fan-head">
+              <small class="fan-cat" id="fanCat"></small>
+              <h2 class="fan-project" id="fanProject"></h2>
+            </div>
+            <div class="fan-caption" id="fanCaption" aria-live="polite">
+              <span class="fan-type fan-anim" id="fanType"></span>
+              <h3 class="fan-anim" id="fanTitle"></h3>
+              <p class="fan-anim" id="fanDesc"></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
