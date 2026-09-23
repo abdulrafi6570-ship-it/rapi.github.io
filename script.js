@@ -85,7 +85,7 @@ const projectGalleries = {
     {
       type: 'image',
       src: 'img/projects/5.jpg',
-      title: { id: 'Poster congratulations, en: 'Motion & Visual' },
+      title: { id: 'Poster congratulations', en: 'Motion & Visual' },
       desc: {
         id: 'Desain poster perayaan dengan tipografi dan elemen visual yang menarik untuk menonjolkan momen pencapaian.',
         en: 'Temporary placeholder. Replace it with your own editing work later.'
