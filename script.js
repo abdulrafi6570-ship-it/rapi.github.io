@@ -162,7 +162,7 @@ const translations = {
     'work.p1.desc':'Ganti judul dan deskripsi project ini di index.html.','work.explore':'Lihat Sekarang',
     'work.p2.cat':'KREATIF / EDITING','work.p2.title':'PROJECT EDITING','work.p2.desc':'Karya editing atau creative work kamu.',
     'work.p3.cat':'LAINNYA / PROJECT','work.p3.title':'PRESTASI MLBB','work.p3.desc':'Tambahkan project lain sesuka kamu.',
-    'work.video.label':'04 / VIDEO SHOWCASE','work.video.title':'TAMPILKAN PROSESNYA.','work.video.desc':'Masukkan video terbaik kamu ke <code>img/videos/1.mp4</code>.',
+    'work.video.title':'TYPOGRAPHY','work.video.desc':'Eksplorasi tipografi melalui video dengan perpaduan font, animasi, dan komposisi visual yang menarik.',
     'ach.label':'04 / PENCAPAIAN','ach.kicker':'DAFTAR JUARA','ach.title':'DAFTAR JUARA <span>TURNAMEN MLBB.</span>',
     'ach.desc':'Tiga pencapaian Mobile Legends yang bisa kamu lengkapi dengan nama turnamen, tahun, dan detail lainnya.',
     'ach.game':'MOBILE LEGENDS','ach.second':'JUARA 2','ach.first':'JUARA 1','ach.placeholder':'Turnamen mlbb / 2026',
