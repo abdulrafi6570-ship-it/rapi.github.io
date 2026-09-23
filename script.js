@@ -197,7 +197,7 @@ const translations = {
     'work.p1.desc':'Change this project title and description in index.html.','work.explore':'Explore Now',
     'work.p2.cat':'CREATIVE / EDITING','work.p2.title':'YOUR PROJECT TWO','work.p2.desc':'Your editing or creative work.',
     'work.p3.cat':'OTHER / PROJECT','work.p3.title':'YOUR PROJECT THREE','work.p3.desc':'Add another project however you like.',
-    'work.video.label':'04 / VIDEO SHOWCASE','work.video.title':'SHOW THE PROCESS.','work.video.desc':'Put your best video in <code>img/videos/1.mp4</code>.',
+    'work.video.label':'04 / VIDEO SHOWCASE','work.video.title':'Typography','work.video.desc':'Eksplorasi tipografi dalam bentuk video dengan memadukan pemilihan font, animasi teks, transisi, dan komposisi visual untuk menciptakan tampilan yang dinamis dan menarik.',
     'ach.label':'04 / ACHIEVEMENTS','ach.kicker':'TOURNAMENT WINNERS','ach.title':'MLBB TOURNAMENT <span>WINNERS.</span>',
     'ach.desc':'Three Mobile Legends achievements you can fill in with the tournament name, year, and other details.',
     'ach.game':'MOBILE LEGENDS','ach.second':'2ND PLACE','ach.first':'1ST PLACE','ach.placeholder':'Tournament name / year',
